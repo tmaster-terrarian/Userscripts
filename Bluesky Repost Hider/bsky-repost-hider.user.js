@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Bluesky Repost Hider
-// @namespace    https://github.com/tmaster-terrarian/Userscripts
-// @version      2024-11-23
-// @description  removes reposts from bsky profile timeline
-// @author       bscit
+// @description  "Hide Reposts" button for Bluesky
+// @version      1.0
+// @namespace    https://github.com/tmaster-terrarian/Userscripts/tree/main/Bluesky%20Repost%20Hider
+// @downloadURL  https://raw.githubusercontent.com/tmaster-terrarian/Userscripts/refs/heads/main/Bluesky%20Repost%20Hider/bsky-repost-hider.user.js
 // @match        https://bsky.app/profile/*
+// @author       bscit
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bsky.app
 // @grant        GM_addStyle
 // ==/UserScript==
