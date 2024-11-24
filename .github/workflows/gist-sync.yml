@@ -6,14 +6,14 @@ jobs:
   gist-sync:
     strategy:
       matrix:
-        title:
-          - "Bluesky Repost Hider"
-        description:
-          - "\"Hide Reposts\" button for Bluesky"
-        gist:
-          - "ea8acdf73ae5a8194445160bf2ec4851"
         file:
           - "Bluesky Repost Hider/bsky-repost-hider.user.js"
+        gist:
+          - "ea8acdf73ae5a8194445160bf2ec4851"
+        title:
+          - "bsky-repost-hider.user.js"
+        description:
+          - "\"Hide Reposts\" button for Bluesky"
     name: Gist Sync
     runs-on: ubuntu-latest
     steps:
