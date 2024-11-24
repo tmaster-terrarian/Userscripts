@@ -1,0 +1,29 @@
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  gist-sync:
+    strategy:
+      matrix:
+        title:
+          - "Bluesky Repost Hider"
+        description:
+          - "\"Hide Reposts\" button for Bluesky"
+        gist:
+          - "ea8acdf73ae5a8194445160bf2ec4851"
+        file:
+          - "Bluesky Repost Hider/bsky-repost-hider.user.js"
+    name: Gist Sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@4
+      - uses: popsiclestick/gist-sync-action@v1.2.0
+        id: sync
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gist_url: https://gist.github.com/tmaster-terrarian/${{ matrix.gist }}
+          gist_title: ${{ matrix.title }}
+          gist_description: ${{ matrix.description }}
+          github_file: ${{ matrix.file }}
