@@ -7,6 +7,7 @@
 // @updateURL  https://raw.githubusercontent.com/tmaster-terrarian/Userscripts/refs/heads/main/Bluesky%20Repost%20Hider/bsky-repost-hider.user.js
 // @match        https://bsky.app/profile/*
 // @author       bscit
+// @license      MIT
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bsky.app
 // @grant        GM_addStyle
 // ==/UserScript==
