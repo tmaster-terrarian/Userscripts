@@ -4,6 +4,7 @@
 // @version      1.0
 // @namespace    https://github.com/tmaster-terrarian/Userscripts/tree/main/Bluesky%20Repost%20Hider
 // @downloadURL  https://raw.githubusercontent.com/tmaster-terrarian/Userscripts/refs/heads/main/Bluesky%20Repost%20Hider/bsky-repost-hider.user.js
+// @updateURL  https://raw.githubusercontent.com/tmaster-terrarian/Userscripts/refs/heads/main/Bluesky%20Repost%20Hider/bsky-repost-hider.user.js
 // @match        https://bsky.app/profile/*
 // @author       bscit
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bsky.app
