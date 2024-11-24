@@ -10,6 +10,7 @@ When pressed, the button will toggle the state of all posts that are found to be
 - the css transition is a pretty janky on much longer profile feeds
 - the show/hide state does not persist
 - can occasionally fail on first page load, a temporary fix is to simply reload the page and pray
+- does not hide self-reposts
 
 ### Planned Features
 - actually functional scroll persistence
