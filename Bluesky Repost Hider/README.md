@@ -1,5 +1,5 @@
 # Bluesky Repost Hider
-[github](https://github.com/tmaster-terrarian/Userscripts/tree/main/Bluesky%20Repost%20Hider)
+[github](https://github.com/tmaster-terrarian/Userscripts/tree/main/Bluesky%20Repost%20Hider) | [greasy fork](https://greasyfork.org/en/scripts/518654-bluesky-repost-hider)
 
 A simple script that adds a button to toggle reposts on a bluesky user's profile.<br>
 Mobile UI and theme compatible.
